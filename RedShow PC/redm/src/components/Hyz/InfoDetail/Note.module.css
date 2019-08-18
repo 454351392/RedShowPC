@@ -1,0 +1,13 @@
+.notebox {
+    max-height: 3200px;
+    column-count: 4;
+    width: 100%;
+    /* background-color: #568; */
+    column-gap: 10px;
+
+}
+
+.myitem {
+    break-inside: avoid;
+}
+

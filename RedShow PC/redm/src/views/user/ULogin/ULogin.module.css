@@ -1,0 +1,53 @@
+.lbigbox{
+    width: 100%;
+    height:100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.logininfo{
+min-width: 1100px;    
+margin-top: 30px;
+    
+}
+
+
+.logins{
+    margin-top: 40px;
+    width: 100%;
+    height:600px;
+    /* background-color: antiquewhite; */
+    background: url('https://s17.mogucdn.com/p2/170105/upload_541i9di2b3icf9j13f24e0bg7b1i6_1920x600.png') center center no-repeat;
+    position: relative;
+}
+
+
+.zhuti{
+ min-width: 1200px;
+ height: 100%;
+ /* background-color: pink; */
+ display: flex;
+ flex-direction: row;
+
+}
+
+.kongbai{
+    width:65.2%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.userlogin{
+    position: absolute;
+    top:80px;
+    right: 12%;
+}
+
+.lfoot{
+    width: 100%;
+    margin-top: 60px;
+ 
+}

@@ -1,0 +1,65 @@
+.myhr {
+    width: 100%;
+    height: 1px;
+    /* margin-top: 100px; */
+    background-color: rgb(223, 217, 217);
+}
+
+
+.headtwo {
+    width: 1200px;
+    height: 50px;
+    /* background-color: aquamarine; */
+    margin: 0px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(223, 217, 217);
+}
+
+.headtwo li {
+    display: inline-block;
+    color: #555;
+    font-size: 14px;
+    width: 70px;
+    text-align: center;
+    height: 100%;
+    line-height: 64px;
+    cursor: pointer;
+    /* background-color: pink; */
+}
+
+.hengxia {
+    border-bottom: 2px solid rgb(241, 43, 76);
+}
+
+
+
+.items {
+    width: 1200px;
+   min-height: 500px;
+   margin: 20px auto;
+    /* background-color: rgb(238, 225, 227); */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* display: flex;
+    justify-content: left;
+    flex-wrap: wrap; */
+     /* column-count: 5; 
+     column-gap: 0; */
+
+
+}
+
+
+  .myitem{
+      width: 220px;
+      display: inline-block;
+        break-inside: avoid;
+      /* margin: 20px 20px; */
+      margin:10px;
+  }
+
+  .hfoot{
+      margin-top: 100px;
+  }

@@ -1,0 +1,15 @@
+.mblock{
+    display: block;
+}
+
+.mnone{
+    display: none;
+}
+
+.ant-form-item {
+    margin-bottom: 17px;
+}
+
+.rbottom{
+    margin-bottom: 17px;
+}

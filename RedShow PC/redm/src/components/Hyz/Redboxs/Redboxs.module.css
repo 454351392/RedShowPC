@@ -1,0 +1,68 @@
+.wbox {
+    width: 260px;
+    height: 300px;
+    background-color: pink;
+    position: relative;
+}
+
+.bgimg {
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease 0s;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+    background-image: url(http://ci.xiaohongshu.com/7d2415e6-3886-4334-b69a-46fd7845997a);
+}
+
+.bgwords {
+    width:100%;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    /* background-color: pink; */
+}
+
+.bgwords p {
+  font-size: 24px;
+}
+
+.wbox:hover .bgred {
+    cursor: pointer;
+    display: block;
+    /* transform: scale(1.1);
+    transition: transform 2s ease 0s; */
+}
+
+.bgred {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: red;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bgredwords {
+    width:100%;
+    height: 100px;
+    transform: scale(1);
+    transition: transform 2s ease 0s;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 0;
+}
+.bgredwords p {
+  font-size: 24px;
+
+}
+.bgredspan {
+  overflow: hidden;
+  word-break: break-all;
+}

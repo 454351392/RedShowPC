@@ -1,0 +1,107 @@
+
+
+.myh{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    padding: 0 30px;
+    box-sizing: border-box;
+    /* position: fixed; */
+    z-index: 999;
+}
+
+.center{
+    width: 1450px;
+    height: 100%;
+    /* background-color: aqua; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a{
+    display: inline-block;
+}
+
+.a1 a{
+    font-size: 20px;
+    color: rgb(75, 74, 74);
+    line-height: 80px;
+    margin-left: 40px;
+} 
+
+.a3 a{
+    font-size: 20px;
+    color: rgb(75, 74, 74);
+    line-height: 80px;
+    margin-left: 30px; 
+}
+
+.a3 span img{
+    margin-top: -4px;
+    width: 40px;
+    height: 40px;
+}
+
+.about{
+    margin-right: 50px;
+}
+
+.himg1{
+position: relative;
+top: -1px;
+}
+.a img{
+    width: 130px;
+    height: 80px;
+  
+}
+
+
+.a2 input{
+    width: 600px;
+    height:44px;
+    margin-left: 15px;
+    margin-top: 18px;
+    background-color: rgb(236, 226, 226);
+    padding-left: 17px;
+    border-radius: 7px 0px 0px 7px;
+    border: none;
+    outline: none;
+}
+
+.a2 button{
+    width: 50px;
+    height:44px;
+    border-radius: 0px 7px 7px 0px;
+    background-color: gray;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box;
+    position: relative;
+    top: 1px;
+    color: white;
+
+}
+
+
+.center div:first-of-type{
+height: 100%;
+min-width:300px;
+/* background-color: rgb(221, 135, 22); */
+}
+
+.center div:nth-of-type(2){
+    min-width:500px;
+    height: 100%;
+    /* background-color: rgb(255, 0, 200);  */
+}
+
+.center div:nth-of-type(3){
+    min-width:300px;
+    height: 100%;
+    /* background-color: lightblue;   */
+}
+
+

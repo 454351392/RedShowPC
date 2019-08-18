@@ -1,0 +1,61 @@
+.bigbox {
+    width: 600px;
+    min-height: 800px;
+    background-color: #eee;
+}
+
+.videobox {
+    width: 600px; 
+    height: 500px;
+    background-color: #000;
+    position: relative;
+}
+
+.videobox video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.titlebox {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    line-height: 40px;
+}
+.titlebox h2 {
+    font-size: 28px;
+    padding-left: 10px;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.infobox {
+    width: 100%;
+    min-height: 80px;
+    margin: 10px 0;
+    line-height: 40px; 
+}
+.infobox a {
+    padding-left: 10px;
+}
+.likevd {
+    width: 100%;
+    height: 60px;
+    margin: 10px 0;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.fbtime {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+}

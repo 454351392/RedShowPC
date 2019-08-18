@@ -1,0 +1,165 @@
+.showthree {
+    width: 100%;
+    height: 119px;
+    /* background-color: lavenderblush; */
+    padding: 15px 0;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #eee;
+    position: relative;
+}
+
+.showthree:hover {
+    background-color: #eee;
+}
+
+.showthree .left {
+    width: 140px;
+    height: 100%;
+}
+
+.showthree .left {
+    overflow: hidden;
+}
+
+.showthree .left img {
+    width: 140px;
+    transition: all 1s;
+    
+   
+}
+
+.showthree .left img:hover {
+    transform: scale(1.3);
+    -ms-transform: scale(1.3);
+}
+
+.showthree .right {
+    width: 445px;
+    height: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.showthree .titlethree a {
+    color: #404040;
+}
+
+.mybut {
+    padding: 0px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.mybut li a {
+    font: normal 12px/12px "SimSun";
+    color: #888;
+}
+
+.mybut li:nth-of-type(1) {
+    border: 1px solid #ff9999;
+    ;
+    border-radius: 5px;
+    padding: 0 2px;
+    box-sizing: border-box;
+}
+
+.mybut li:nth-of-type(1) a {
+    color: #ff9999;
+}
+
+.mybut li:nth-of-type(1) .pluss {
+    color: #ff9999;
+}
+
+.mybut li {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.mybuttop {
+    position: relative;
+    overflow: hidden;
+    padding-right: 10px !important;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.mybut .pluss {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+
+.mybuttop:hover .pluss {
+    left: 50px;
+}
+
+.mybuttwo {
+    position: relative;
+}
+
+.mybnt {
+    position: absolute;
+    top: -47px;
+    left: 252px;
+}
+
+.tiezi {
+    position: absolute;
+    top: 78px;
+    left: 502px;
+    color: #bbb;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+    overflow: hidden;
+}
+
+.tiezi:hover {
+    background-color: #eee;
+}
+
+.tiezi i {
+    font-style: normal;
+
+}
+
+.tiezi span:nth-of-type(1) {
+    background-image: url(http://static.ws.126.net/f2e/modules/shares/images/sprite0613v2.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.tiezi span:nth-of-type(1) {
+    display: block;
+    padding-left: 26px;
+    background-position: -203px -109px;
+    color: #bbb;
+}
+
+.tiezi span:nth-of-type(2) {
+    display: block;
+    /* height: 0; */
+    color: red;
+
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.tiezione:hover .tiezitwo {
+    top: 0px;
+}
+
+.cgc {
+    color: grey !important;
+}

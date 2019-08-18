@@ -1,0 +1,59 @@
+a {
+    text-decoration: none;
+    text-align: left
+}
+
+.mybox {
+    width: 200px;
+    height: auto;
+    /* background-color: pink; */
+    list-style: none;
+    padding: 20px 0px;
+    border-bottom: 2px #eeeeee solid;
+}
+
+.mytop {
+    text-align: center;
+}
+
+.mytop a {
+    width: 71px !important;
+    height: 23px !important;
+    overflow: hidden;
+    color: #404040;
+    text-decoration: none;
+    display: inline-block;
+    background: url(https://static.ws.126.net/163/f2e/news/index2016_rmd/images/sprite_img20190530.png) no-repeat;
+    background-position: 0px -98px;
+}
+
+.mytitle h3 a {
+    font-weight: bold;
+    color: black
+}
+
+.mytitle div {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+.mytitle a img {
+    width: 200px !important;
+    height: 200px !important;
+}
+.detail {
+    list-style-type: square;
+    margin-left: 20px;
+
+}
+
+.detail a {
+    color: #888888;
+    font-size: 12px;
+}
+
+.mytitle:hover div {
+    width: 200px;
+    height: 90px;
+}

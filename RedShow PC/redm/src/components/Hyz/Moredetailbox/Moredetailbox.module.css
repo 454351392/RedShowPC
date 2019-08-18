@@ -1,0 +1,46 @@
+.box {
+    width: 360px;
+    height: 500px;
+    border: 1px solid #ccc;
+
+  }
+  
+  .shang {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      border-bottom: 1px solid #ccc;
+      padding-left: 20px;
+      font-size: 20px;
+  }
+  
+  .zhong {
+      width: 100%;
+      height: 400px;
+      padding-left: 20px;
+      overflow: scroll;
+      overflow: auto;
+
+  }
+  
+  .zhong div {
+      width: 100%;
+      height: 2000px;
+  }
+
+  .xia {
+      width: 85%;
+      height: 50px;
+      margin: 0 auto;
+      line-height: 50px;
+      padding-left: 10px;
+      text-align: center;
+      border-top: 1px solid #ccc;
+  }
+  .xia a {
+      color: #333;
+    }
+  .xia a:hover {
+      color: orangered;
+  }
+  

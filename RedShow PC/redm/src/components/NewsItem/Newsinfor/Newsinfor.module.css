@@ -1,0 +1,25 @@
+.newsinfor {
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsinfor h1 {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.newsinfor img {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.newsinfor .txt {
+    font-size: 18px;
+    text-indent: 2em;
+    margin: auto;
+    margin-bottom: 20px;
+}
+

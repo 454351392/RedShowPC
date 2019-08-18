@@ -1,0 +1,40 @@
+.box {
+    width: 360px;
+    height: 130px;
+  }
+
+  .zhong {
+      width: 100%;
+      height: 120px;
+      padding-left: 20px;
+      position: relative;
+  
+  }
+  
+  .zhong img {
+      width: 80px;
+      height: 80px;
+      border-radius: 20%;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      
+  }
+  
+  .zhong div {
+      width: 60%;
+      height: 100px;
+      position: absolute;
+      left: 120px;
+      top: 30px;
+  }
+  .zhong h3 {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .zhong span {
+      width: 100%;
+      height: 50px;
+  }

@@ -1,0 +1,45 @@
+.card-container > .ant-tabs-card > .ant-tabs-content {
+    height: 120px;
+    margin-top: -16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #fbfbfb;
+    padding: 16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar {
+    border-color: #fff;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: #fff;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fbfbfb;
+    background: #fbfbfb;
+  }
+
+  .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+   padding: 0 70px;
+   border: 1px solid #eee;
+   margin:  0 90px 0 100px;
+   
+  }
+
+  .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+    color: orangered;
+  }
+
+  .card-container > .ant-tabs-card > .ant-tabs-content {
+    height: 300px;
+    text-align: center;
+  }
+
+  .companyimg {
+    width: 300px;
+    height: 200px;
+    padding: 0px 10px;
+  }

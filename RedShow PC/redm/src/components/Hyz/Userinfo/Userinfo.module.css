@@ -1,0 +1,71 @@
+.box {
+  width: 360px;
+  height: 250px;
+  border: 1px solid #ccc;
+}
+
+.shang {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.zhong {
+    width: 100%;
+    height: 150px;
+    padding-left: 20px;
+    position: relative;
+
+}
+
+.zhong img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 20%;
+    
+}
+
+.zhong div {
+    width: 60%;
+    height: 100px;
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+.zhong h3 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+
+.zhong span {
+    width: 100%;
+    height: 50px;
+}
+.xia {
+    width: 82%;
+    height: 50px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.xia li {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.xia li p {
+    width: 100%;
+    margin-bottom: 0;
+
+}

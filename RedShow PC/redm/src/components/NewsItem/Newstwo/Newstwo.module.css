@@ -1,0 +1,34 @@
+.ul {
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.mytitle {
+    text-align: center;
+    list-style: none;
+}
+
+.mytitle a {
+    color: #404040;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.myitems {
+    font-size: 18px;
+    font-family: '寰蒋闆呴粦';
+    margin: 0px 10px;
+}
+
+.myitems a {
+    color: #404040;
+}
+
+.myitems span {
+    padding: 0 8px;
+    color: grey;
+}
+
+ul li:hover a {
+    color: red;
+}

@@ -1,0 +1,32 @@
+.topbox {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    min-width: 830px;
+
+}
+
+.topnavleft {
+    display: flex;
+    padding-left: 50px;
+    line-height: 80px;
+    justify-content: flex-start;
+}
+.topnavleft  li {
+  width: 120px;
+}
+
+
+.topnavright {
+    display: flex;
+    line-height: 80px;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+
+.topnavright li {
+ padding: 0 10px;
+}
